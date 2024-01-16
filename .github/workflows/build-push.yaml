@@ -23,6 +23,5 @@ jobs:
         with:
           context: .
           push: true
-          platforms: linux/amd64
           tags: safeeha/app:latest
           file: ./Dockerfile
